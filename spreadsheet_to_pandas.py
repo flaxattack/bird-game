@@ -14,8 +14,8 @@ creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FI
 
 
 # The ID and range of a sample spreadsheet.
-#spreadsheet_id = '1g9WyeYF1bGyfE1RsM45S2-XBye90wxpXS8KI_OLnSh0'
-spreadsheet_id = '1-sZB2G-zoWKLBxJCa2Qt81atkYgkm45Lqbr3xO0Hsas'
+
+spreadsheet_id = 'spreadsheet_id'
 
 # Call the Sheets API
 service = build('sheets', 'v4', credentials=creds)
