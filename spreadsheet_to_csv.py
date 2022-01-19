@@ -85,4 +85,4 @@ def sheet_to_df(title_list_index):
 # sheets 1-29 (index 28) are pre-Oceania; sheets 29+ are oceania
 # save the dataframe to a csv file
 sheet_to_df(titles[:28]).to_csv('original.csv')
-sheet_to_df(titles[29:].to_csv('oceania.csv')
+sheet_to_df(titles[29:]).to_csv('oceania.csv')
